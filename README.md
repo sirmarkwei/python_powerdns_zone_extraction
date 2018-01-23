@@ -12,6 +12,6 @@ Extractzone.py will:
 1. Take in your PowerDNS hosted zone as argument
 2. Login to PowerDNS
 3. Extract Zone's Record, Answer, Type
-4. Form a terraform file with zone setup
-5. Form a terraform file with all of the records
-6. 
+4. Write a terraform file with zone setup
+5. Write a terraform file with all of the records
+6. Write a gitlab CI file to perform a validate/plan/apply
